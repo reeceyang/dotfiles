@@ -8,3 +8,7 @@ ln -s ${BASEDIR}/.zshenv ~/.zshenv
 
 # git
 ln -s ${BASEDIR}/.gitconfig ~/.gitconfig
+
+# spacemacs
+ln -s ${BASEDIR}/.spacemacs ~/.spacemacs
+
