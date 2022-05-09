@@ -12,3 +12,5 @@ ln -s ${BASEDIR}/.gitconfig ~/.gitconfig
 # spacemacs
 ln -s ${BASEDIR}/.spacemacs ~/.spacemacs
 
+# vim
+ln -s ${BASEDIR}/.vimrc ~/.vimrc
