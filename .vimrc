@@ -9,6 +9,9 @@ set shiftwidth=4
 set tabstop=4
 set expandtab
 
+noremap <expr> k (v:count == 0 ? 'gk' : 'k')
+noremap <expr> j (v:count == 0 ? 'gj' : 'j')
+
 call plug#begin()
 Plug 'sainnhe/everforest'
 call plug#end()
