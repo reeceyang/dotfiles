@@ -5,8 +5,8 @@ set ruler " Always shows location in file (line#)
 set number
 set relativenumber
 set smarttab " Autotabs for certain code
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 set expandtab
 
 noremap <expr> k (v:count == 0 ? 'gk' : 'k')

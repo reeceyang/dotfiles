@@ -9,3 +9,4 @@ function movtogif () {
   ffmpeg -stats -i "${1%.mov}-resized.mov" -i $tempfile -filter_complex "fps=10,paletteuse" "${1%.mov}.gif"
   rm $tempfile "${1%.mov}-resized.mov"
 }
+. "$HOME/.cargo/env"
