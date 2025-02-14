@@ -14,3 +14,6 @@ ln -s ${BASEDIR}/.spacemacs ~/.spacemacs
 
 # vim
 ln -s ${BASEDIR}/.vimrc ~/.vimrc
+
+# emacs
+ln -s ${BASEDIR}/init.el ~/.emacs.d/init.el
